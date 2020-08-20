@@ -1,0 +1,856 @@
+ /*
+Theme name: ;
+Author: Md Mahthir Islam;
+WebSite link: ;
+Publish Date: ;
+*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+
+    /********************** 
+Header Section Code start
+***********************/
+
+.header-section {
+    width: 100%;
+    padding: 0px 0px;
+    
+}
+
+.header-section .bg-light {
+    padding: 30px 0px;
+    background: #daac00 !important;
+}
+
+.header-section .navbar-brand .logo {
+    width: 120px;
+    height: 35px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 22px;
+    font-weight: 600;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #511de5;
+}
+
+.header-section .from-group{
+    width: 100%;
+    position: relative;
+}
+.header-section .from-group .form-control{
+    width: 100%;
+    height: auto !important;
+    padding: 6px 20px;
+    border: 1px solid #daac00;
+    background: #fcc302;
+    color: #ffffff;
+    border-radius: 0px;
+}
+.header-section .btn-info {
+    position: absolute;
+    top: 34px;
+    right: 24%;
+    padding: 6px 24px;
+}
+
+
+
+.banner {
+    width: 100%;
+    padding: 120px 0px;
+    background: url(../picture/banner.png) center top no-repeat;
+    background-size: cover;
+}
+
+.header-section .banner .banner-inner {
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.header-section .banner .banner-inner h2 {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.header-section .banner .banner-inner p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header-section .banner .btn-inner .btn-primary {
+    padding: 12px 25px;
+    font-size: 14px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 7px;
+}
+
+.header-section .banner .btn-inner .btn-primary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+.header-section .banner .btn-inner .btn-secondary {
+    padding: 12px 25px;
+    font-size: 14px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    margin-left: 25px;
+}
+
+.header-section .banner .btn-inner .btn-secondary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+.dog-img{
+    width: 100%;
+}
+.dog-img img{
+    width: 350px;
+    margin-left: -180px;
+    margin-top: -65px;
+}
+
+
+/********************** 
+Header Section code End
+***********************/
+
+/********************** 
+Veterinarian Section code Start
+***********************/
+.Veterinarian-section{
+    width: 100%;
+    padding: 240px 0px;
+    background: #ffffff;
+}
+
+.Veterinarian-section .Veterinarian-inner h4 {
+    font-size: 40px;
+    line-height: 59px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Veterinarian-section .Veterinarian-inner p {
+    
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #686975;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Veterinarian-section .btn-inner .btn-secondary {
+    padding: 12px 25px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #fcc302;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    
+}
+
+.Veterinarian-section .btn-inner .btn-secondary:hover {
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+.Veterinarian-section .inner-Veterinarian{
+    width: 100%;
+}
+
+.Veterinarian-section .inner-Veterinarian img{
+    width: 200px;
+    position: relative;
+    margin-top: 200px;
+}
+.Veterinarian-section .inner{
+    position: absolute;
+    top: -135px;
+    left: 40px;
+
+}
+.Veterinarian-section .inner .port-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(218, 172, 0, 0.569);
+    text-align: center;
+    transform: scale(0);
+    transition: 0.3s;
+
+}
+.Veterinarian-section .inner:hover .port-hover{
+    transform: scale(1);
+}
+
+
+.Veterinarian-section .inner .port-hover .fa{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    font-size: 26px;
+    line-height: 70px;
+    text-align: center;
+    color: #fcc302;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: lemonchiffon;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+/********************** 
+Veterinarian Section code End
+***********************/ 
+
+/********************** 
+Title Here Section code Start
+***********************/ 
+
+.Title-Here{
+    width: 100%;
+    padding: 80px 0px;
+    background: #fcc302;
+
+}
+
+.Title-Here .inner-Title {
+    width: 100%;
+    text-align: center;
+}
+
+.Title-Here .inner-Title h2 {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Title-Here .inner-Title p {
+    font-size: 14px;
+    font-family: "Poppins";
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.Title-Here .title-inner{
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.Title-Here .title-inner h4{
+    font-size: 25px;
+    font-family: "Poppins";
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 25px;
+}
+
+
+.Title-Here .title-inner p{
+    font-size: 14px;
+    font-family: "Poppins";
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #ffffff;
+    
+}
+
+/********************** 
+Title Here Section code End
+***********************/ 
+
+/********************** 
+Animal Section code Start
+***********************/ 
+.Animal-section{
+    width: 100%;
+    padding: 240px 0px;
+    background: #ffffff;
+}
+
+.Animal-section .inner-Animal{
+    width: 100%;
+}
+
+.Animal-section .inner-Animal img{
+    width: 200px;
+    position: relative;
+    margin-top: 200px;
+}
+.Animal-section .inner{
+    position: absolute;
+    top: -135px;
+    left: 40px;
+
+}
+.Animal-section .inner .port-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(218, 172, 0, 0.569);
+    text-align: center;
+    transform: scale(0);
+    transition: 0.3s;
+
+}
+.Animal-section .inner:hover .port-hover{
+    transform: scale(1);
+}
+
+
+.Animal-section .inner .port-hover .fa{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    font-size: 26px;
+    line-height: 70px;
+    text-align: center;
+    color: #fcc302;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: lemonchiffon;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+
+.Animal-section .Animal-inner h4 {
+    font-size: 40px;
+    line-height: 59px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Animal-section .Animal-inner p {
+    
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #686975;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Animal-section .btn-inner .btn-secondary {
+    padding: 12px 25px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #fcc302;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    
+}
+
+.Animal-section .btn-inner .btn-secondary:hover {
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+
+
+
+/********************** 
+Animal  Section code End
+***********************/ 
+
+/********************** 
+Title Here Section code Start
+***********************/ 
+
+
+.Title{
+    width: 100%;
+    padding: 80px 0px;
+    background: #fcc302;
+
+}
+
+.Title .inner-Title {
+    width: 100%;
+    text-align: center;
+}
+
+.Title .inner-Title h2 {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Title .inner-Title p {
+    font-size: 14px;
+    font-family: "Poppins";
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.Title .title-inner{
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.Title .title-inner h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+
+}
+.Title .title-inner strike{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 30px;
+
+
+}
+.Title .btn-inner .btn-primary {
+    padding: 6px 35px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 20px;
+    
+}
+
+.Title .btn-inner .btn-primary:hover {
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+
+/********************** 
+Title Here Section code End
+***********************/ 
+
+/********************** 
+Vetcare Here Section code Start
+***********************/ 
+
+.Vetcare-section{
+    width: 100%;
+    padding: 80px 0px;
+
+
+}
+
+.Vetcare-section .inner-Vetcare {
+    width: 100%;
+    text-align: center;
+}
+
+.Vetcare-section .inner-Vetcare h2 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Vetcare-section .inner-Vetcare p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Vetcare-section .Vetcare-inner{
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+
+
+.Vetcare-section .Vetcare-inner h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #313243;
+    margin-top: 20px;
+
+}
+.Vetcare-section .Vetcare-inner h5{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #313243;
+    
+
+    }
+
+.Vetcare-section .Vetcare-inner .social-icon{
+    width: 100%;
+    margin-top: 20px;
+}
+.Vetcare-section .Vetcare-inner .social-icon ul{
+
+}
+
+.Vetcare-section .Vetcare-inner .social-icon ul li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+.Vetcare-section .Vetcare-inner .social-icon ul li a{
+    text-align: center;
+    margin-left: 5px;
+}
+
+.Vetcare-section .Vetcare-inner .social-icon ul li a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #daac00;
+    color: #fff;
+    border: 1px solid #daac00;
+    border-radius: 50%;
+    transition: 1s;
+
+
+}
+.Vetcare-section .Vetcare-inner .social-icon ul li a i:hover{
+    background: transparent;
+    color: #08c;
+    border: 1px solid #08c;
+    transition: 1s;
+
+}
+/********************** 
+Vetcare Here Section code End
+***********************/ 
+
+/********************** 
+Happy Here Section code Start
+***********************/ 
+
+.happy-section{
+    width: 100%;
+    padding: 150px 0px;
+    background: url(../picture/image.png) center top no-repeat;
+    background-size: cover;
+}
+.happy-section .happy-inner{
+    width: 100%;
+    text-align: center;
+}
+
+.happy-section .happy-inner img{
+    margin-bottom: 20px;
+}
+.happy-section .happy-inner h4{
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.happy-section .happy-inner h5{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/********************** 
+Happy Here Section code End
+***********************/ 
+
+/********************** 
+Recents Here Section code Start
+***********************/
+
+.Recents-section{
+    width: 100%;
+    padding: 80px 0px;
+
+
+}
+
+.Recents-section .Recents-Title {
+    width: 100%;
+    text-align: center;
+}
+
+.Recents-section .Recents-Title h2 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Recents-section .Recents-Title p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+    margin-bottom: 50px;
+} 
+
+.Recents-section .card{
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.Recents-section .card .card-body h5 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Recents-section .card .card-body h6 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #00bec9;
+    margin-top: 10px;
+} 
+.Recents-section .card .card-body p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+} 
+.Recents-section .card .card-body .card-text {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #00bec9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+
+.Recents-section .card:hover{
+    
+    box-shadow: 1px 10px 15px 10px #d6d6d6;
+}
+
+/********************** 
+Recents Here Section code End
+***********************/ 
+
+/********************** 
+Footer Here Section code Start
+***********************/ 
+
+.footer-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #343434;
+}
+.footer-section .footer-inner{
+    width: 100%;
+}
+.footer-section .footer-inner h5{
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+.footer-section .footer-inner p{
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.footer-section .inner-footer{
+    width: 100%;
+    text-align: right;
+}
+
+
+.footer-section .inner-footer .Title-inner{
+    width: 100%;
+    text-align: right;
+}
+.footer-section .inner-footer .Title-inner h2 {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer-section .inner-footer .Title-inner p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+} 
+
+.footer-section .inner-footer .from-group{
+    width: 100%;
+    position: relative;
+}
+.footer-section .inner-footer .from-group .form-control{
+    width: 70%;
+    height: auto !important;
+    padding: 20px 18px;
+    border: 1px solid #daac00;
+    background: #fcc302;
+    color: #ffffff;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+.footer-section .inner-footer .btn-info {
+    position: absolute;
+    top: 116px;
+    right: 4%;
+    padding: 20px 47px;
+    margin-top: 20px;
+}
+
+.footer-section .inner-footer .social-icon{
+    width: 100%;
+    margin-top: 30px;
+}
+.footer-section .inner-footer .social-icon ul{
+
+}
+
+.footer-section .inner-footer .social-icon ul li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+.footer-section .inner-footer .social-icon ul li a{
+    text-align: center;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.footer-section .inner-footer .social-icon ul li a i{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: #ffffff;
+    color: #000;
+    border: 1px solid #343434;
+    border-radius: 50%;
+    transition: 1s;
+
+
+}
+.footer-section .inner-footer .social-icon ul li a i:hover{
+    background: transparent;
+    color: #08c;
+    border: 1px solid #08c;
+    transition: 1s;
+
+}
+
+
+/********************** 
+Footer Here Section code End
+***********************/ 

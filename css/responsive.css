@@ -1,0 +1,835 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+ /********************** 
+Header Section Code start
+***********************/
+
+.header-section .navbar-brand .logo {
+    width: 120px;
+    height: 35px;
+    margin-left: 15px;
+}
+.header-section .btn-info {
+    position: absolute;
+    top: 235px;
+    right: 0%;
+    padding: 6px 24px;
+}
+.header-section .banner .banner-inner h2 {
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+
+.dog-img img {
+    width: 280px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+/********************** 
+Header Section Code End
+***********************/
+
+/********************** 
+Veterinarian Section code Start
+***********************/
+.Veterinarian-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+}
+
+.Veterinarian-section .Veterinarian-inner h4 {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+}
+.Veterinarian-section .inner {
+    position: absolute;
+    top: 85px;
+    left: 41px;
+}
+
+/********************** 
+Veterinarian Section code End
+***********************/
+
+/********************** 
+Title Here Section code Start
+***********************/ 
+
+.Title-Here .inner-Title h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Title-Here .title-inner {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+/********************** 
+Title Here Section code End
+***********************/
+
+/********************** 
+Animal  Here Section code Start
+***********************/ 
+
+.Animal-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+}
+
+.Animal-section .inner {
+    position: absolute;
+    top: 85px;
+    left: 41px;
+}
+
+.Animal-section .Animal-inner h4 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+    margin-top: 60px;
+}
+/********************** 
+Animal  Here Section code End
+***********************/ 
+/********************** 
+Title  Here Section code Start
+***********************/ 
+.Title .inner-Title h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Title .inner-Title p {
+    font-size: 12px;
+    font-family: "Poppins";
+    line-height: 1.2;
+    
+}
+.Title .btn-inner .btn-primary {
+    padding: 6px 35px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+/********************** 
+Title  Here Section code End
+***********************/
+
+/********************** 
+Vetcare Section code Start
+***********************/  
+
+.Vetcare-section .inner-Vetcare h2 {
+    font-size: 29px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Vetcare-section .inner-Vetcare p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/********************** 
+Vetcare Section code End
+***********************/ 
+
+/********************** 
+happy Section code Start
+***********************/ 
+
+.happy-section .happy-inner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/********************** 
+happy Section code End
+***********************/ 
+
+/********************** 
+Recents Section code Start
+***********************/ 
+.Recents-section .Recents-Title h2 {
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Recents-section .Recents-Title p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Recents-section .card .card-body h5 {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Recents-section .card .card-body h6 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #00bec9;
+    margin-top: 10px;
+}
+.Recents-section .card .card-body p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+}
+.Recents-section .card .card-body .card-text {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #00bec9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/********************** 
+Recents Section code End
+***********************/
+
+/********************** 
+footer Section code Start
+***********************/
+
+.footer-section .inner-footer .from-group .form-control {
+    width: 100%;
+    height: auto !important;
+    padding: 20px 18px;
+    border: 1px solid #daac00;
+    background: #fcc302;
+    color: #ffffff;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+.footer-section .inner-footer .Title-inner p {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.footer-section .inner-footer .btn-info {
+    position: absolute;
+    top: 102px;
+    right: 4%;
+    padding: 20px 47px;
+}
+
+
+
+/********************** 
+footer Section code End
+***********************/
+}
+
+
+@media (min-width: 414px) and (max-width: 736px){
+
+/********************** 
+Header Section code Start
+***********************/
+    .header-section .btn-info {
+    position: absolute;
+    top: 235px;
+    right: 0%;
+    padding: 6px 24px;
+
+    }
+
+/********************** 
+Header Section code Start
+***********************/
+
+.footer-section .inner-footer .btn-info {
+    position: absolute;
+    top: 102px;
+    right: 3%;
+    padding: 20px 47px;
+    margin-top: 20px;
+}
+
+/********************** 
+footer Section code End
+***********************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /********************** 
+Header Section code Start
+***********************/
+
+.header-section .navbar-brand .logo {
+    width: 120px;
+    height: 35px;
+    margin-left: 15px;
+}
+
+.header-section .banner .banner-inner h2 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.dog-img img {
+    width: 350px;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+
+/********************** 
+Header Section code End
+***********************/
+
+/********************** 
+Veterinarian Section code Start
+***********************/
+.Veterinarian-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+}
+.Veterinarian-section .inner {
+    position: absolute;
+    top: -71px;
+    left: 40px;
+}
+
+
+.Veterinarian-section .Veterinarian-inner h4 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Veterinarian-section .btn-inner .btn-secondary {
+    padding: 12px 25px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #fcc302;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    margin-bottom: 125px;
+}
+
+
+
+/********************** 
+Veterinarian Section code End
+***********************/
+/********************** 
+Title Here Section code Start
+***********************/
+
+.Title-Here .inner-Title h2 {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Title-Here .title-inner {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+/********************** 
+Title Here Section code End
+***********************/
+
+/********************** 
+Animal Here Section code Start
+***********************/
+
+.Animal-section {
+    width: 100%;
+    padding: 150px 0px;
+    background: #ffffff;
+}
+.Animal-section .inner {
+    position: absolute;
+    top: -71px;
+    left: 40px;
+}
+
+.Animal-section .Animal-inner h4 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+    margin-top: 50px;
+}
+.Animal-section .Animal-inner p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #686975;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+/********************** 
+Animal Here Section code End
+***********************/
+
+/********************** 
+Title Section code Start
+***********************/
+
+.Title .inner-Title h2 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Title .btn-inner .btn-primary {
+    padding: 6px 35px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+/********************** 
+Title Section code End
+***********************/
+
+/********************** 
+Vetcare Section code Start
+***********************/
+.Vetcare-section .inner-Vetcare h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #313243;
+}
+.Vetcare-section .inner-Vetcare p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Vetcare-section .Vetcare-inner .social-icon ul li a i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #daac00;
+    color: #fff;
+    border: 1px solid #daac00;
+    border-radius: 50%;
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+/********************** 
+Vetcare Section code End
+***********************/
+
+/********************** 
+Happy Section code Start
+***********************/
+
+.happy-section .happy-inner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/********************** 
+Happy Section code End
+***********************/
+
+/********************** 
+Recents Section code Start
+***********************/
+
+.Recents-section .Recents-Title h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #313243;
+}
+
+.Recents-section .Recents-Title p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Recents-section .card {
+
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+/********************** 
+Recents Section code End
+***********************/
+
+/********************** 
+footer Section code Start
+***********************/
+.footer-section .inner-footer .from-group .form-control {
+
+    width: 100%;
+    height: auto !important;
+    padding: 20px 18px;
+    border: 1px solid #daac00;
+    background: #fcc302;
+    color: #ffffff;
+    border-radius: 0px;
+    margin-top: 20px;
+
+}
+.footer-section .inner-footer .btn-info {
+
+    position: absolute;
+    top: 108px;
+    right: 3%;
+    padding: 20px 47px;
+
+
+}
+
+  /********************** 
+footer Section code End
+***********************/
+  
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/********************** 
+Header Section code Start
+***********************/
+
+.header-section .btn-info {
+
+    position: absolute;
+    top: 243px;
+    right: 3%;
+    padding: 6px 24px;
+
+}
+  
+.header-section .banner .banner-inner h2 {
+
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.dog-img img {
+
+    width: 350px;
+    margin-left: -115px;
+    margin-top: -68px;
+
+}
+
+/********************** 
+Header Section code End
+***********************/
+
+/********************** 
+Veterinarian Section code Start
+***********************/
+.Veterinarian-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+}
+.Veterinarian-section .Veterinarian-inner h4 {
+
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+    margin-top: 30px;
+
+}
+.Veterinarian-section .inner {
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+/********************** 
+Veterinarian Section code End
+***********************/
+
+/********************** 
+Title-Here Section code Start
+***********************/
+
+.Title-Here .title-inner h4 {
+
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.Title-Here .title-inner p {
+    font-size: 14px;
+    font-family: "Poppins";
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/********************** 
+Title-Here Section code End
+***********************/
+
+/********************** 
+Animal Section code Start
+***********************/
+.Animal-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+}
+.Animal-section .inner {
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+
+.Animal-section .Animal-inner h4 {
+
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+    margin-top: 35px;
+
+}
+
+/********************** 
+Animal Section code End
+***********************/
+
+/********************** 
+Title Section code Start
+***********************/
+
+.Title .inner-Title h2 {
+
+    font-size: 45px;
+    line-height: 59px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+
+
+/********************** 
+Title Section code End
+***********************/
+
+/********************** 
+Vetcare Section code Start
+***********************/
+.Vetcare-section .inner-Vetcare h2 {
+
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #313243;
+
+}
+.Vetcare-section .inner-Vetcare p {
+
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+/********************** 
+Vetcare Section code End
+***********************/
+
+/********************** 
+Recents Section code Start
+***********************/
+.Recents-section .card {
+
+    width: 108%;
+    margin-top: 40px;
+
+}
+.Recents-section .card .card-body h5 {
+
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #313243;
+
+}
+.Recents-section .card .card-body h6 {
+
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #00bec9;
+    margin-top: 10px;
+
+}
+.Recents-section .card .card-body p {
+
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #313243;
+    margin-top: 20px;
+
+}
+.Recents-section .card .card-body .card-text {
+
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #00bec9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+/********************** 
+Recents Section code End
+***********************/
+
+/********************** 
+Footer Section code Start
+***********************/
+.footer-section .inner-footer .Title-inner p {
+
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+.footer-section .inner-footer .from-group .form-control {
+
+    width: 85%;
+    height: auto !important;
+    padding: 20px 18px;
+    border: 1px solid #daac00;
+    background: #fcc302;
+    color: #ffffff;
+    border-radius: 0px;
+    margin-top: 20px;
+
+}
+.footer-section .inner-footer .btn-info {
+
+    position: absolute;
+    top: 107px;
+    right: 6%;
+    padding: 20px 42px;
+
+}
+
+/********************** 
+Footer Section code End
+***********************/
+  
+}
